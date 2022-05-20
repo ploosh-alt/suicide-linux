@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM guacaplushy/ubuntu:latest
 
 COPY bash.bashrc /etc/
 
